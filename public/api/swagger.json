@@ -521,8 +521,8 @@
             }
         }
     },
-    "host": "localhost",
+    "host": "service.b-ol.de",
     "schemes": [
-        "https"
+        "http"
     ]
 }

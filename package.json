@@ -1,5 +1,5 @@
 {
-  "name": "sparql-router",
+  "name": "manifest-service",
   "version": "0.3.0",
   "description": "An API layer in front of a SPARQL endpoint in order to serve canned queries, and more.",
   "keywords": [
@@ -56,6 +56,7 @@
     "https": "^1.0.0",
     "passport": "^0.3.2",
     "passport-http": "^0.3.0",
+    "pkginfo": "latest",
     "pug": "^2.0.0-alpha7",
     "sparqljs": "^1.1.4",
     "vue": "^1.0.24"

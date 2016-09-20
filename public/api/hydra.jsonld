@@ -4,7 +4,7 @@
         {}
     ],
     "router": "/hydra.jsonld#",
-    "@id": "https://localhost/api/hydra.jsonld",
+    "@id": "http://service.b-ol.de/api/hydra.jsonld",
     "@type": "ApiDocumentation",
     "supportedClass": [
         {
@@ -102,5 +102,5 @@
             ]
         }
     ],
-    "@base": "https://localhost/api/hydra.jsonld#"
+    "@base": "http://service.b-ol.de/api/hydra.jsonld#"
 }

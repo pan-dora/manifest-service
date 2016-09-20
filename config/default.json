@@ -37,8 +37,8 @@
 		},
 		"port": 3000,
 		"public": {
-			"scheme": "https",
-			"hostname": "sparql-router.heroku.com",
+			"scheme": "http",
+			"hostname": "service.b-ol.de",
 			"port": ""
 		},
 		"maxQueryLength": 4000
