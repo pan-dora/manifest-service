@@ -1,0 +1,46 @@
+{
+  "@context": "http://localhost:8888/context.json",
+  "@type": "sc:Manifest",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "startCanvas": {
+        "@type": "sc:Canvas",
+        "@embed": false
+      },
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@embed": true
+            }
+          ],
+          "otherContent": [
+            {
+              "@type": "sc:AnnotationList",
+              "@embed": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@type": "sc:Range",
+      "@embed": true,
+      "canvases": [
+        {
+          "@embed": false
+        }
+      ],
+      "ranges": [
+        {
+          "@embed": false
+        }
+      ]
+    }
+  ]
+}

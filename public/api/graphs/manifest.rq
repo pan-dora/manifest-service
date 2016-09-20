@@ -1,0 +1,63 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX sc: <http://iiif.io/api/presentation/2#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX exif: <http://www.w3.org/2003/12/exif/ns#>
+PREFIX svcs: <http://rdfs.org/sioc/services#>
+PREFIX dctypes: <http://purl.org/dc/dcmitype/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX fedora: <http://fedora.info/definitions/v4/repository#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+CONSTRUCT {?manifest rdf:type sc:Manifest .
+?manifest sc:hasSequences ?seqid .
+?seqid rdf:first ?sequence .
+?seqid rdf:rest ?seqrest .
+?sequence rdf:type sc:Sequence .
+?sequence sc:hasCanvases ?canvaslist.
+?mid rdf:first ?canvas .
+?mid rdf:rest ?last .
+?canvas rdf:type sc:Canvas .
+?canvas exif:height ?height  .
+?canvas exif:width ?width  .
+?canvas sc:hasImageAnnotations ?imageid .
+?imageid rdf:first ?resid .
+?imageid rdf:rest rdf:nil .
+?resid rdf:type oa:Annotation.
+?resid oa:hasBody ?image .
+?resid oa:hasTarget ?canvas .
+?resid oa:motivatedBy sc:painting .
+?image svcs:has_service ?service .
+?service rdf:type <http://iiif.io/api/image/2/context.json> .
+?image rdf:type dctypes:Image .
+?image exif:height ?iheight.
+?image exif:width ?iwidth .
+?image dc:format ?format .
+?canvas sc:hasLists ?listid .
+?listid rdf:first ?annolistid .
+?annolistid rdf:type sc:AnnotationList .
+?listid rdf:rest ?annolistidrest .
+}
+
+WHERE {values ?manifest {?node}
+?manifest sc:hasSequences ?seqid .
+?seqid rdf:first ?sequence .
+?seqid rdf:rest ?seqrest .
+?sequence sc:hasCanvases ?canvaslist .
+?canvaslist rdf:rest* ?mid .
+?mid rdf:first ?canvas .
+?mid rdf:rest ?last .
+?canvas sc:hasImageAnnotations ?imageid .
+?canvas exif:height ?height .
+?canvas exif:width ?width .
+?imageid rdf:first ?resid .
+?resid oa:hasBody ?image .
+?image svcs:has_service ?service .
+?image exif:height ?iheight .
+?image exif:width ?iwidth .
+?image dc:format ?format .
+?canvas sc:hasLists ?listid .
+?listid rdf:first ?annolistid .
+?listid rdf:rest ?annolistidrest .
+}
+group by ?manifest ?seqid ?sequence ?seqrest ?canvaslist ?mid ?canvas ?last ?height ?width ?imageid ?resid ?image ?service ?iheight ?iwidth ?format
+?listid ?annolistid ?annolistidrest
