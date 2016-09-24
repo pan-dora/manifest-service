@@ -25,6 +25,10 @@
 			"headers": {}
 		}
 	},
+	"iiif": {
+	     "context": "http://iiif.io/api/presentation/2/context.json",
+		 "frame": "http://localhost:3000/frame.json"
+	},
 	"app": {
 		"authentication": true,
 		"user": "user",

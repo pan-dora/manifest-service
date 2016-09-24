@@ -8,6 +8,7 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX fedora: <http://fedora.info/definitions/v4/repository#>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX doap: <http://usefulinc.com/ns/doap#>
 CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?manifest sc:hasSequences ?seqid .
 ?seqid rdf:first ?sequence .
@@ -28,6 +29,7 @@ CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?resid oa:motivatedBy sc:painting .
 ?image svcs:has_service ?service .
 ?service rdf:type <http://iiif.io/api/image/2/context.json> .
+?service doap:implements <http://iiif.io/api/image/2/level1.json> .
 ?image rdf:type dctypes:Image .
 ?image exif:height ?iheight.
 ?image exif:width ?iwidth .

@@ -1,0 +1,131 @@
+{
+  "@context": "http://localhost:3000/context.json",
+  "@graph": [
+    {
+      "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/manifest",
+      "@type": "sc:Manifest",
+      "sc:hasRanges": null,
+      "sequences": [
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/sequence/normal",
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/canvas/001",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b2",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/res/001.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://localhost:8888/iiif/test10.001.001",
+                      "@type": "http://iiif.io/api/image/2/context.json"
+                    },
+                    "height": "3293.0",
+                    "width": "2137.0"
+                  },
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test10/001/canvas/001",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                "http://localhost:8080/fcrepo/rest/collection/test10/001/list/001"
+              ],
+              "height": "3000.0",
+              "width": "2000.0"
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/canvas/002",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b1",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/res/002.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://localhost:8888/iiif/test10.001.002",
+                      "@type": "http://iiif.io/api/image/2/context.json"
+                    },
+                    "height": "3293.0",
+                    "width": "2138.0"
+                  },
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test10/001/canvas/002",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                "http://localhost:8080/fcrepo/rest/collection/test10/001/list/002"
+              ],
+              "height": "3000.0",
+              "width": "2000.0"
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/canvas/003",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b0",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/res/003.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://localhost:8888/iiif/test10.001.003",
+                      "@type": "http://iiif.io/api/image/2/context.json"
+                    },
+                    "height": "3293.0",
+                    "width": "2138.0"
+                  },
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test10/001/canvas/003",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                "http://localhost:8080/fcrepo/rest/collection/test10/001/list/003"
+              ],
+              "height": "3000.0",
+              "width": "2000.0"
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/canvas/004",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b3",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://localhost:8080/fcrepo/rest/collection/test10/001/res/004.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://localhost:8888/iiif/test10.001.004",
+                      "@type": "http://iiif.io/api/image/2/context.json"
+                    },
+                    "height": "3293.0",
+                    "width": "2138.0"
+                  },
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test10/001/canvas/004",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                "http://localhost:8080/fcrepo/rest/collection/test10/001/list/004"
+              ],
+              "height": "3000.0",
+              "width": "2000.0"
+            }
+          ],
+          "startCanvas": null
+        }
+      ]
+    }
+  ]
+}

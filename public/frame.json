@@ -1,5 +1,5 @@
 {
-  "@context": "http://localhost:8888/context.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "sequences": [
     {
