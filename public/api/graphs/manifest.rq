@@ -61,5 +61,4 @@ WHERE {values ?manifest {?node}
 ?listid rdf:first ?annolistid .
 ?listid rdf:rest ?annolistidrest .
 }
-group by ?manifest ?seqid ?sequence ?seqrest ?canvaslist ?mid ?canvas ?last ?height ?width ?imageid ?resid ?image ?service ?iheight ?iwidth ?format
-?listid ?annolistid ?annolistidrest
+
