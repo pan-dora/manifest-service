@@ -14,7 +14,7 @@ CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?seqid rdf:first ?sequence .
 ?seqid rdf:rest ?seqrest .
 ?sequence rdf:type sc:Sequence .
-?sequence sc:hasCanvases ?canvaslist.
+?sequence sc:hasCanvases ?canvaslist .
 ?mid rdf:first ?canvas .
 ?mid rdf:rest ?last .
 ?canvas rdf:type sc:Canvas .
@@ -61,5 +61,4 @@ WHERE {values ?manifest {?node}
 ?listid rdf:first ?annolistid .
 ?listid rdf:rest ?annolistidrest .
 }
-group by ?manifest ?seqid ?sequence ?seqrest ?canvaslist ?mid ?canvas ?last ?height ?width ?imageid ?resid ?image ?service ?iheight ?iwidth ?format
-?listid ?annolistid ?annolistidrest
+
