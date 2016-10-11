@@ -1,0 +1,322 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://d.lib.ncsu.edu/collections/catalog/technician-v69n51-1988-02-05/manifest",
+  "@type": "sc:Manifest",
+  "label": "Technician, Vol. 69 No. 51 [50], February 5, 1988",
+  "related": {
+    "@id": "http://d.lib.ncsu.edu/collections/catalog/technician-v69n51-1988-02-05",
+    "format": "text/html",
+    "label": "HTML page for the resource"
+  },
+  "logo": {
+    "@id": "http://d.lib.ncsu.edu/collections/assets/ncsu-libraries-white-logo-placement-8e3a4e918262aa5993b0e0475989b02f.jpg"
+  },
+  "attribution": "Technician (Raleigh, N.C.) (LH1 .N6 T4), Special Collections Research Center at NCSU Libraries",
+  "license": "http://d.lib.ncsu.edu/collections/about#rights_and_use",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Technician, Vol. 69 No. 51 [50], February 5, 1988"
+    },
+    {
+      "label": "Creator",
+      "value": "\u003cspan\u003e\u003ca href=\"http://d.lib.ncsu.edu/collections/catalog?f%5Bnames_facet%5D%5B%5D=North+Carolina+State+University\"\u003eNorth Carolina State University\u003c/a\u003e (Publisher)\u003c/span\u003e"
+    },
+    {
+      "label": "Created Date",
+      "value": "1988-02-05"
+    },
+    {
+      "label": "URL",
+      "value": "\u003cspan\u003e\u003ca href=\"http://d.lib.ncsu.edu/collections/catalog/technician-v69n51-1988-02-05\"\u003ehttp://d.lib.ncsu.edu/collections/catalog/technician-v69n51-1988-02-05\u003c/a\u003e\u003c/span\u003e"
+    },
+    {
+      "label": "",
+      "value": "\u003cspan\u003e\u003ca href=\"http://d.lib.ncsu.edu/collections/catalog/technician-v69n51-1988-02-05?manifest=http%3A%2F%2Fd.lib.ncsu.edu%2Fcollections%2Fcatalog%2Ftechnician-v69n51-1988-02-05%2Fmanifest.json\"\u003eIIIF drag \u0026amp; drop\u003c/a\u003e (\u003ca href=\"http://d.lib.ncsu.edu/collections/about-iiif\"\u003eAbout IIIF\u003c/a\u003e)\u003c/span\u003e"
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05/full/150,/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0001",
+          "height": 7415,
+          "width": 4668,
+          "label": "1",
+          "seeAlso": [
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0001/technician-v69n51-1988-02-05_0001.hocr",
+              "format": "text/vnd.hocr+html",
+              "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md",
+              "label": "hOCR"
+            },
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0001/technician-v69n51-1988-02-05_0001.txt",
+              "format": "text/plain",
+              "label": "plain text OCR"
+            }
+          ],
+          "images": [
+            {
+              "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0001",
+              "@type": "oa:Annotation",
+              "on": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0001",
+              "motivation": "sc:painting",
+              "resource": {
+                "height": 7415,
+                "width": 4668,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0001"
+                },
+                "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0001",
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0002",
+          "height": 7471,
+          "width": 4753,
+          "label": "2",
+          "seeAlso": [
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0002/technician-v69n51-1988-02-05_0002.hocr",
+              "format": "text/vnd.hocr+html",
+              "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md",
+              "label": "hOCR"
+            },
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0002/technician-v69n51-1988-02-05_0002.txt",
+              "format": "text/plain",
+              "label": "plain text OCR"
+            }
+          ],
+          "images": [
+            {
+              "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0002",
+              "@type": "oa:Annotation",
+              "on": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0002",
+              "motivation": "sc:painting",
+              "resource": {
+                "height": 7471,
+                "width": 4753,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0002"
+                },
+                "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0002",
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0003",
+          "height": 7417,
+          "width": 4674,
+          "label": "3",
+          "seeAlso": [
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0003/technician-v69n51-1988-02-05_0003.hocr",
+              "format": "text/vnd.hocr+html",
+              "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md",
+              "label": "hOCR"
+            },
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0003/technician-v69n51-1988-02-05_0003.txt",
+              "format": "text/plain",
+              "label": "plain text OCR"
+            }
+          ],
+          "images": [
+            {
+              "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0003",
+              "@type": "oa:Annotation",
+              "on": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0003",
+              "motivation": "sc:painting",
+              "resource": {
+                "height": 7417,
+                "width": 4674,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0003"
+                },
+                "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0003",
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0004",
+          "height": 7447,
+          "width": 4754,
+          "label": "4",
+          "seeAlso": [
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0004/technician-v69n51-1988-02-05_0004.hocr",
+              "format": "text/vnd.hocr+html",
+              "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md",
+              "label": "hOCR"
+            },
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0004/technician-v69n51-1988-02-05_0004.txt",
+              "format": "text/plain",
+              "label": "plain text OCR"
+            }
+          ],
+          "images": [
+            {
+              "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0004",
+              "@type": "oa:Annotation",
+              "on": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0004",
+              "motivation": "sc:painting",
+              "resource": {
+                "height": 7447,
+                "width": 4754,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0004"
+                },
+                "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0004",
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0005",
+          "height": 7413,
+          "width": 4671,
+          "label": "5",
+          "seeAlso": [
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0005/technician-v69n51-1988-02-05_0005.hocr",
+              "format": "text/vnd.hocr+html",
+              "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md",
+              "label": "hOCR"
+            },
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0005/technician-v69n51-1988-02-05_0005.txt",
+              "format": "text/plain",
+              "label": "plain text OCR"
+            }
+          ],
+          "images": [
+            {
+              "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0005",
+              "@type": "oa:Annotation",
+              "on": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0005",
+              "motivation": "sc:painting",
+              "resource": {
+                "height": 7413,
+                "width": 4671,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0005"
+                },
+                "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0005",
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0006",
+          "height": 7451,
+          "width": 4704,
+          "label": "6",
+          "seeAlso": [
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0006/technician-v69n51-1988-02-05_0006.hocr",
+              "format": "text/vnd.hocr+html",
+              "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md",
+              "label": "hOCR"
+            },
+            {
+              "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05_0006/technician-v69n51-1988-02-05_0006.txt",
+              "format": "text/plain",
+              "label": "plain text OCR"
+            }
+          ],
+          "images": [
+            {
+              "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0006",
+              "@type": "oa:Annotation",
+              "on": "http://d.lib.ncsu.edu/collections/canvas/technician-v69n51-1988-02-05_0006",
+              "motivation": "sc:painting",
+              "resource": {
+                "height": 7451,
+                "width": 4704,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0006"
+                },
+                "@id": "https://iiif.lib.ncsu.edu/iiif/technician-v69n51-1988-02-05_0006",
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        }
+      ],
+      "@type": "sc:Sequence",
+      "viewingHint": "paged",
+      "rendering": [
+        {
+          "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05/technician-v69n51-1988-02-05.pdf",
+          "label": "Download as PDF, 3.99 MB",
+          "format": "application/pdf"
+        },
+        {
+          "@id": "https://ocr.lib.ncsu.edu/ocr/te/technician-v69n51-1988-02-05/technician-v69n51-1988-02-05.txt",
+          "label": "Download OCR Text",
+          "format": "plain/text"
+        }
+      ]
+    }
+  ],
+  "service": [
+    {
+      "@context": "http://iiif.io/api/search/0/context.json",
+      "@id": "https://ocr.lib.ncsu.edu/search/technician-v69n51-1988-02-05",
+      "profile": "http://iiif.io/api/search/0/search",
+      "label": "Search within this thing",
+      "service": {
+        "@id": "https://ocr.lib.ncsu.edu/suggest/technician-v69n51-1988-02-05",
+        "profile": "http://iiif.io/api/search/0/autocomplete",
+        "label": "Get suggested words"
+      }
+    }
+  ],
+  "seeAlso": [
+    {
+      "@id": "http://d.lib.ncsu.edu/collections/catalog/oai?identifier=ncsul%2Ftechnician-v69n51-1988-02-05\u0026metadataPrefix=oai_dc\u0026verb=GetRecord",
+      "format": "text/xml",
+      "label": "Dublin Core XML via OAI-PMH"
+    }
+  ],
+  "ncsul:metadata-updated": "2016-09-05T19:46:40.626Z",
+  "ncsul:manifest-updated": "2016-09-29T03:16:35.158-04:00"
+}

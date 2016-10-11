@@ -1,0 +1,37 @@
+{
+  "@context": "http://localhost:3000/listcontext.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@type": "oa:Annotation",
+      "on": [
+        {
+          "@embed": false
+        }
+      ],
+      "resource": [
+        {
+          "@embed": true,
+          "areas": [
+            {
+              "@type": "doc:Area",
+              "@embed": true,
+              "lines": [
+                {
+                  "@type": "doc:Line",
+                  "@embed": true,
+                  "words": [
+                    {
+                      "@type": "doc:Word",
+                      "@embed": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

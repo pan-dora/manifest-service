@@ -1,0 +1,56 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX sc: <http://iiif.io/api/presentation/2#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX exif: <http://www.w3.org/2003/12/exif/ns#>
+PREFIX svcs: <http://rdfs.org/sioc/services#>
+PREFIX dctypes: <http://purl.org/dc/dcmitype/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX fedora: <http://fedora.info/definitions/v4/repository#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX doc: <http://iiif.io/api/text#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+CONSTRUCT {?list rdf:type sc:AnnotationList .
+?list sc:hasAnnotations ?annolistid.
+?annolistid rdf:first ?annoid .
+?annolistid rdf:rest ?last .
+?annoid oa:hasBody ?page .
+?annoid oa:hasTarget ?pagetarget .
+?annoid rdf:type oa:Annotation .
+?page doc:hasAreas ?arealistid .
+?page rdf:type doc:Page .
+?area rdf:type doc:Area .
+?mid rdf:first ?area .
+?mid rdf:rest ?last2 .
+?area doc:hasLines ?linelistid .
+?line rdf:type doc:Line .
+?line oa:hasTarget ?newlinetarget .
+?mid2 rdf:first ?line .
+?mid2 rdf:rest ?last3 .
+?line doc:hasWords ?wordlistid .
+?word rdf:type doc:Word .
+?mid4 rdf:first ?word .
+?mid4 rdf:rest ?last4 .
+}
+
+WHERE {values ?list {?node}
+?list sc:hasAnnotations ?annolistid.
+?annolistid rdf:first ?annoid .
+?annolistid rdf:rest ?last .
+?annoid oa:hasBody ?page .
+?annoid oa:hasTarget ?pagetarget .
+?page doc:hasAreas ?arealistid .
+?arealistid rdf:rest* ?mid .
+?mid rdf:first ?area .
+?mid rdf:rest ?last2 .
+?area doc:hasLines ?linelistid .
+?linelistid rdf:rest* ?mid2 .
+?mid2 rdf:first ?line .
+?mid2 rdf:rest ?last3 .
+?line doc:hasWords ?wordlistid .
+?wordlistid rdf:rest* ?mid4 .
+?mid4 rdf:first ?word .
+?mid4 rdf:rest ?last4 .
+?wordlistid oa:hasTarget ?linetarget .
+BIND (URI(REPLACE (STR(?linetarget),"%2C",","))AS ?newlinetarget)
+}

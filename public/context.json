@@ -152,8 +152,7 @@
     },
 
     "paged": {
-      "@id": "sc:pagedHint",
-      "@type": "sc:ViewingHint"
+      "@id": "sc:pagedHint"
     },
     "non-paged": {
       "@id": "sc:nonPagedHint",

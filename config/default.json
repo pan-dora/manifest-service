@@ -27,7 +27,8 @@
 	},
 	"iiif": {
 	     "context": "http://iiif.io/api/presentation/2/context.json",
-		 "frame": "http://localhost:3000/frame.json"
+		 "frame": "http://localhost:3000/frame.json",
+		 "listframe": "http://localhost:3000/listframe.json"
 	},
 	"app": {
 		"authentication": true,

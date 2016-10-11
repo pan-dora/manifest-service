@@ -15,6 +15,7 @@ CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?seqid rdf:rest ?seqrest .
 ?sequence rdf:type sc:Sequence .
 ?sequence sc:hasCanvases ?canvaslist .
+?sequence sc:viewingHint sc:pagedHint .
 ?mid rdf:first ?canvas .
 ?mid rdf:rest ?last .
 ?canvas rdf:type sc:Canvas .

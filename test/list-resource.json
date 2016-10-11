@@ -1,0 +1,25 @@
+{
+  "@graph": [
+    {
+      "@id": "http://localhost:8080/fcrepo/rest/collection/test/012/list/016",
+      "@type": "http://iiif.io/api/presentation/2#AnnotationList",
+      "http://iiif.io/api/presentation/2#hasAnnotations": {
+        "@list": [
+          {
+            "@id": "_:b500fb8506bf8"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "_:b500fb8506bf8",
+      "@type": "http://www.w3.org/ns/oa#Annotation",
+      "http://www.w3.org/ns/oa#hasBody": {
+        "@id": "http://localhost:8080/fcrepo/rest/collection/test/012/page/16"
+      },
+      "http://www.w3.org/ns/oa#hasTarget": {
+        "@id": "http://localhost:8080/fcrepo/rest/collection/test/012/canvas/016"
+      }
+    }
+  ]
+}
