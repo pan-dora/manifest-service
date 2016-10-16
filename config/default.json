@@ -28,7 +28,8 @@
 	"iiif": {
 	     "context": "http://iiif.io/api/presentation/2/context.json",
 		 "frame": "http://localhost:3000/frame.json",
-		 "listframe": "http://localhost:3000/listframe.json"
+		 "listframe": "http://localhost:3000/listframe.json",
+		"pageframe": "http://localhost:3000/pageframe.json"
 	},
 	"app": {
 		"authentication": true,

@@ -154,6 +154,9 @@
     "paged": {
       "@id": "sc:pagedHint"
     },
+    "linking": {
+      "@id": "oa:linking"
+    },
     "non-paged": {
       "@id": "sc:nonPagedHint",
       "@type": "sc:ViewingHint"

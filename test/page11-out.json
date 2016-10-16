@@ -1,0 +1,2003 @@
+{
+  "@context": "http://localhost:3000/listcontext.json",
+  "@graph": [
+    {
+      "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/page/11",
+      "@type": "doc:Page",
+      "areas": [
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_1",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_1",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_1",
+                  "@type": "doc:Word",
+                  "cnt:chars": "DEC.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=643,495,180,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_2",
+                  "@type": "doc:Word",
+                  "cnt:chars": "QVINTA",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=853,495,312,72"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_3",
+                  "@type": "doc:Word",
+                  "cnt:chars": "COLL.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1182,495,229,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_4",
+                  "@type": "doc:Word",
+                  "cnt:chars": "SVAE",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1443,495,200,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_5",
+                  "@type": "doc:Word",
+                  "cnt:chars": "CRAN.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1668,495,244,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_6",
+                  "@type": "doc:Word",
+                  "cnt:chars": "DIV.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1940,496,156,56"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_7",
+                  "@type": "doc:Word",
+                  "cnt:chars": "GENT.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2121,495,231,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_8",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ILLVSTR.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2377,495,348,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_9",
+                  "@type": "doc:Word",
+                  "cnt:chars": "11",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2992,495,62,56"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_2",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_2",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_10",
+                  "@type": "doc:Word",
+                  "cnt:chars": "21",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=604,892,71,56"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_11",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Sinenses",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=778,891,274,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_12",
+                  "@type": "doc:Word",
+                  "cnt:chars": "nautas",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1147,900,202,49"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_13",
+                  "@type": "doc:Word",
+                  "cnt:chars": "curatius",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1445,892,252,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_14",
+                  "@type": "doc:Word",
+                  "cnt:chars": "contemplare",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1793,891,401,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_15",
+                  "@type": "doc:Word",
+                  "cnt:chars": "data",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2289,891,133,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_16",
+                  "@type": "doc:Word",
+                  "cnt:chars": "fuerit",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2515,892,176,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_17",
+                  "@type": "doc:Word",
+                  "cnt:chars": "exoptata",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2785,900,270,66"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_3",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_3",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_18",
+                  "@type": "doc:Word",
+                  "cnt:chars": "occasio",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=603,1012,236,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_19",
+                  "@type": "doc:Word",
+                  "cnt:chars": "m",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=864,1031,57,38"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_20",
+                  "@type": "doc:Word",
+                  "cnt:chars": ").",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=925,1012,37,71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_4",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_4",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_21",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Osseum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=904,1190,257,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_22",
+                  "@type": "doc:Word",
+                  "cnt:chars": "de",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1208,1190,74,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_23",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quo",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1330,1209,117,56"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_24",
+                  "@type": "doc:Word",
+                  "cnt:chars": "hic",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1494,1190,95,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_25",
+                  "@type": "doc:Word",
+                  "cnt:chars": "agitur",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1640,1191,186,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_26",
+                  "@type": "doc:Word",
+                  "cnt:chars": "caput",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1872,1199,174,66"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_27",
+                  "@type": "doc:Word",
+                  "cnt:chars": "praeter",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2091,1199,229,66"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_28",
+                  "@type": "doc:Word",
+                  "cnt:chars": "alia",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2366,1190,111,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_29",
+                  "@type": "doc:Word",
+                  "cnt:chars": "dorso",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2524,1190,176,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_30",
+                  "@type": "doc:Word",
+                  "cnt:chars": "nasi",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2747,1191,126,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_31",
+                  "@type": "doc:Word",
+                  "cnt:chars": "pro-",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2920,1209,131,56"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_5",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_32",
+                  "@type": "doc:Word",
+                  "cnt:chars": "fundius",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=602,1310,238,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_33",
+                  "@type": "doc:Word",
+                  "cnt:chars": "concauo",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=906,1329,264,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_34",
+                  "@type": "doc:Word",
+                  "cnt:chars": "praesertim",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1235,1311,345,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_35",
+                  "@type": "doc:Word",
+                  "cnt:chars": "autem",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1646,1319,195,49"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_36",
+                  "@type": "doc:Word",
+                  "cnt:chars": "singulari",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1909,1310,275,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_37",
+                  "@type": "doc:Word",
+                  "cnt:chars": "fere",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2249,1311,124,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_38",
+                  "@type": "doc:Word",
+                  "cnt:chars": "subglobosa",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2440,1310,352,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_39",
+                  "@type": "doc:Word",
+                  "cnt:chars": "rotun-",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2857,1319,195,49"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_6",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_40",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ditate",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=603,1430,178,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_41",
+                  "@type": "doc:Word",
+                  "cnt:chars": "partis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=866,1431,179,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_42",
+                  "@type": "doc:Word",
+                  "cnt:chars": "alueolaris",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1132,1430,309,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_43",
+                  "@type": "doc:Word",
+                  "cnt:chars": "maxillae",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1526,1430,275,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_44",
+                  "@type": "doc:Word",
+                  "cnt:chars": "superioris",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1888,1431,313,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_45",
+                  "@type": "doc:Word",
+                  "cnt:chars": "notabile",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2286,1430,258,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_46",
+                  "@type": "doc:Word",
+                  "cnt:chars": "est,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2629,1439,104,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_47",
+                  "@type": "doc:Word",
+                  "cnt:chars": "cui",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2821,1431,94,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_48",
+                  "@type": "doc:Word",
+                  "cnt:chars": "et",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=3002,1439,56,49"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_7",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_49",
+                  "@type": "doc:Word",
+                  "cnt:chars": "arcuata",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=604,1559,231,49"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_50",
+                  "@type": "doc:Word",
+                  "cnt:chars": "curuatura",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=947,1559,307,49"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_51",
+                  "@type": "doc:Word",
+                  "cnt:chars": "dentium",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1366,1550,264,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_52",
+                  "@type": "doc:Word",
+                  "cnt:chars": "anteriorum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1744,1551,356,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_53",
+                  "@type": "doc:Word",
+                  "cnt:chars": "superiorum,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2214,1551,384,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_54",
+                  "@type": "doc:Word",
+                  "cnt:chars": "praesertim",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2712,1551,345,74"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_8",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_55",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quoad",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=603,1670,195,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_56",
+                  "@type": "doc:Word",
+                  "cnt:chars": "radices",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=889,1670,226,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_57",
+                  "@type": "doc:Word",
+                  "cnt:chars": "eorum,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1208,1689,226,50"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_58",
+                  "@type": "doc:Word",
+                  "cnt:chars": "respondet.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1528,1670,329,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_59",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Conuenit",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1955,1670,294,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_60",
+                  "@type": "doc:Word",
+                  "cnt:chars": "cum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2340,1689,137,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_61",
+                  "@type": "doc:Word",
+                  "cnt:chars": "hac",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2568,1670,109,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_62",
+                  "@type": "doc:Word",
+                  "cnt:chars": "structura",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2772,1679,283,49"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_9",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_63",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quod",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=603,1790,159,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_64",
+                  "@type": "doc:Word",
+                  "cnt:chars": "DUHALDE",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=841,1792,330,56"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_65",
+                  "@type": "doc:Word",
+                  "cnt:chars": "de",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1249,1790,74,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_66",
+                  "@type": "doc:Word",
+                  "cnt:chars": "peculiari",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1400,1790,281,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_67",
+                  "@type": "doc:Word",
+                  "cnt:chars": "dentium",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1761,1790,264,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_68",
+                  "@type": "doc:Word",
+                  "cnt:chars": "superiorum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2104,1791,366,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_69",
+                  "@type": "doc:Word",
+                  "cnt:chars": "apud",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2550,1790,154,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_70",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Sinenses",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2783,1790,274,58"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_10",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_71",
+                  "@type": "doc:Word",
+                  "cnt:chars": "directione",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=603,1910,322,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_72",
+                  "@type": "doc:Word",
+                  "cnt:chars": "memorat",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1010,1919,290,49"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_73",
+                  "@type": "doc:Word",
+                  "cnt:chars": "n",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1385,1930,38,38"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_74",
+                  "@type": "doc:Word",
+                  "cnt:chars": "),",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1426,1911,43,71"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_75",
+                  "@type": "doc:Word",
+                  "cnt:chars": "cui",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1558,1911,94,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_76",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quidem",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1739,1910,239,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_77",
+                  "@type": "doc:Word",
+                  "cnt:chars": "OSBECK",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2066,1910,267,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_78",
+                  "@type": "doc:Word",
+                  "cnt:chars": "tribuit",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2418,1910,198,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_79",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quod",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2701,1910,160,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_80",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ipsi",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2945,1911,113,74"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_11",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_81",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quaedam",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=603,2030,292,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_82",
+                  "@type": "doc:Word",
+                  "cnt:chars": "verba",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=993,2030,178,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_83",
+                  "@type": "doc:Word",
+                  "cnt:chars": "singulari",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1272,2030,275,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_84",
+                  "@type": "doc:Word",
+                  "cnt:chars": "et",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1647,2039,58,49"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_85",
+                  "@type": "doc:Word",
+                  "cnt:chars": "aliis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1804,2030,126,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_86",
+                  "@type": "doc:Word",
+                  "cnt:chars": "gentibus",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2030,2030,269,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_87",
+                  "@type": "doc:Word",
+                  "cnt:chars": "inimitabili",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2399,2030,335,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_88",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ratione",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2833,2031,224,57"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_5",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_12",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_89",
+                  "@type": "doc:Word",
+                  "cnt:chars": "pronuncient",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=602,2151,385,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_90",
+                  "@type": "doc:Word",
+                  "cnt:chars": "o",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1011,2170,37,38"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_91",
+                  "@type": "doc:Word",
+                  "cnt:chars": ").",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1049,2151,43,71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_6",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_13",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_92",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Ceteroquin",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=904,2328,359,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_93",
+                  "@type": "doc:Word",
+                  "cnt:chars": "egregium",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1332,2329,301,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_94",
+                  "@type": "doc:Word",
+                  "cnt:chars": "hocce",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1701,2328,188,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_95",
+                  "@type": "doc:Word",
+                  "cnt:chars": "cranium",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1958,2329,265,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_96",
+                  "@type": "doc:Word",
+                  "cnt:chars": "perfectissime",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2292,2329,431,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_97",
+                  "@type": "doc:Word",
+                  "cnt:chars": "congruit",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2792,2329,267,74"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_14",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_98",
+                  "@type": "doc:Word",
+                  "cnt:chars": "cum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=603,2467,137,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_99",
+                  "@type": "doc:Word",
+                  "cnt:chars": "praestantissima",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=804,2449,498,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_100",
+                  "@type": "doc:Word",
+                  "cnt:chars": "icone",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1366,2449,172,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_101",
+                  "@type": "doc:Word",
+                  "cnt:chars": "nautae",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1602,2457,210,49"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_102",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Sinensis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1878,2448,259,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_103",
+                  "@type": "doc:Word",
+                  "cnt:chars": "qui",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2203,2449,98,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_104",
+                  "@type": "doc:Word",
+                  "cnt:chars": "aliquamdiu",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2368,2448,360,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_105",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Havniae",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2793,2449,263,57"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_15",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_106",
+                  "@type": "doc:Word",
+                  "cnt:chars": "degens",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=603,2568,217,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_107",
+                  "@type": "doc:Word",
+                  "cnt:chars": "a",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=904,2587,32,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_108",
+                  "@type": "doc:Word",
+                  "cnt:chars": "summo",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1018,2587,235,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_109",
+                  "@type": "doc:Word",
+                  "cnt:chars": "imaginum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1335,2569,326,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_110",
+                  "@type": "doc:Word",
+                  "cnt:chars": "pictore",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1743,2569,223,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_111",
+                  "@type": "doc:Word",
+                  "cnt:chars": "J",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2050,2570,30,56"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_112",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ENS",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2083,2579,119,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_113",
+                  "@type": "doc:Word",
+                  "cnt:chars": "JUEL",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2284,2570,160,56"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_114",
+                  "@type": "doc:Word",
+                  "cnt:chars": "artis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2528,2569,136,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_115",
+                  "@type": "doc:Word",
+                  "cnt:chars": "graphicae",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2746,2568,313,75"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_16",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_116",
+                  "@type": "doc:Word",
+                  "cnt:chars": "professore",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=602,2689,334,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_117",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Regio,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1023,2689,208,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_118",
+                  "@type": "doc:Word",
+                  "cnt:chars": "pictura",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1321,2689,225,74"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_119",
+                  "@type": "doc:Word",
+                  "cnt:chars": "olearia",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1634,2688,216,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_120",
+                  "@type": "doc:Word",
+                  "cnt:chars": "mascule",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1937,2688,261,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_121",
+                  "@type": "doc:Word",
+                  "cnt:chars": "exhibitum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2286,2688,327,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_122",
+                  "@type": "doc:Word",
+                  "cnt:chars": "est,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2702,2697,103,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_123",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quod",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2897,2688,159,75"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_17",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_124",
+                  "@type": "doc:Word",
+                  "cnt:chars": "iam",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=602,2809,119,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_125",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Cl.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=813,2808,89,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_126",
+                  "@type": "doc:Word",
+                  "cnt:chars": "SCHEEL,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=999,2808,271,69"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_127",
+                  "@type": "doc:Word",
+                  "cnt:chars": "medici",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1363,2808,220,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_128",
+                  "@type": "doc:Word",
+                  "cnt:chars": "apud",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1674,2808,155,75"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_129",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Havnienses",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1919,2809,363,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_130",
+                  "@type": "doc:Word",
+                  "cnt:chars": "celeberrimi",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2374,2808,368,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_131",
+                  "@type": "doc:Word",
+                  "cnt:chars": "fauore,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2832,2809,220,68"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_7",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_18",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_132",
+                  "@type": "doc:Word",
+                  "cnt:chars": "museum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=602,2947,273,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_133",
+                  "@type": "doc:Word",
+                  "cnt:chars": "meum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=899,2947,202,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_134",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ornat.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1126,2937,180,49"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_8",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_19",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_135",
+                  "@type": "doc:Word",
+                  "cnt:chars": "m).",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=713,3102,86,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_136",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Ex",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=862,3103,70,44"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_137",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ipsa",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=989,3101,102,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_138",
+                  "@type": "doc:Word",
+                  "cnt:chars": "hac",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1149,3101,87,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_139",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quam",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1296,3116,143,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_140",
+                  "@type": "doc:Word",
+                  "cnt:chars": "innuimus",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1496,3101,238,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_141",
+                  "@type": "doc:Word",
+                  "cnt:chars": "vultus",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1790,3101,154,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_142",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Sinensium",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2003,3101,268,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_143",
+                  "@type": "doc:Word",
+                  "cnt:chars": "varietate",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2328,3101,222,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_144",
+                  "@type": "doc:Word",
+                  "cnt:chars": "explicare",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2608,3101,233,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_145",
+                  "@type": "doc:Word",
+                  "cnt:chars": "licebit",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2899,3101,157,47"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_20",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_146",
+                  "@type": "doc:Word",
+                  "cnt:chars": "diuersas",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=790,3197,209,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_147",
+                  "@type": "doc:Word",
+                  "cnt:chars": "auctorum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1085,3205,244,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_148",
+                  "@type": "doc:Word",
+                  "cnt:chars": "in",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1412,3197,47,46"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_149",
+                  "@type": "doc:Word",
+                  "cnt:chars": "describendis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1545,3197,321,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_150",
+                  "@type": "doc:Word",
+                  "cnt:chars": "eorum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1952,3212,165,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_151",
+                  "@type": "doc:Word",
+                  "cnt:chars": "craniis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2202,3197,169,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_152",
+                  "@type": "doc:Word",
+                  "cnt:chars": "obseruationes,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2456,3197,366,55"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_153",
+                  "@type": "doc:Word",
+                  "cnt:chars": "sicubi",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2910,3197,147,47"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_21",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_154",
+                  "@type": "doc:Word",
+                  "cnt:chars": "v.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=788,3308,43,31"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_155",
+                  "@type": "doc:Word",
+                  "cnt:chars": "c.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=897,3307,39,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_156",
+                  "@type": "doc:Word",
+                  "cnt:chars": "CAMPERUS",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1001,3292,288,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_157",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ea",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1354,3307,54,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_158",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Vtahitensibus",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1468,3292,352,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_159",
+                  "@type": "doc:Word",
+                  "cnt:chars": "simillima",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1882,3292,240,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_160",
+                  "@type": "doc:Word",
+                  "cnt:chars": "esse",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2185,3307,103,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_161",
+                  "@type": "doc:Word",
+                  "cnt:chars": "dicat,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2349,3292,137,55"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_162",
+                  "@type": "doc:Word",
+                  "cnt:chars": "cum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2551,3307,110,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_163",
+                  "@type": "doc:Word",
+                  "cnt:chars": "contra",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2722,3300,161,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_164",
+                  "@type": "doc:Word",
+                  "cnt:chars": "illud",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2943,3292,116,47"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_22",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_165",
+                  "@type": "doc:Word",
+                  "cnt:chars": "de",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=790,3388,60,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_166",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quo",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=901,3403,94,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_167",
+                  "@type": "doc:Word",
+                  "cnt:chars": "hic",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1047,3388,75,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_168",
+                  "@type": "doc:Word",
+                  "cnt:chars": "agitur",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1176,3388,147,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_169",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ab",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1375,3388,58,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_170",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Vtahiten",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1487,3388,338,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_171",
+                  "@type": "doc:Word",
+                  "cnt:chars": "si",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1845,3388,53,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_172",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quod",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1985,3388,128,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_173",
+                  "@type": "doc:Word",
+                  "cnt:chars": "antea",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2164,3396,135,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_174",
+                  "@type": "doc:Word",
+                  "cnt:chars": "exhibuimus",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2352,3388,298,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_175",
+                  "@type": "doc:Word",
+                  "cnt:chars": "(—",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2703,3389,52,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_176",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Dec.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2805,3390,117,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_177",
+                  "@type": "doc:Word",
+                  "cnt:chars": "III.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2978,3390,75,45"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_23",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_178",
+                  "@type": "doc:Word",
+                  "cnt:chars": "tab.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=789,3484,92,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_179",
+                  "@type": "doc:Word",
+                  "cnt:chars": "26.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=952,3485,77,46"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_180",
+                  "@type": "doc:Word",
+                  "cnt:chars": "—)",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1098,3485,52,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_181",
+                  "@type": "doc:Word",
+                  "cnt:chars": "mirum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1218,3484,176,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_182",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quantum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1461,3492,227,52"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_183",
+                  "@type": "doc:Word",
+                  "cnt:chars": "discrepet;",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1755,3484,249,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_184",
+                  "@type": "doc:Word",
+                  "cnt:chars": "aut",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2073,3492,76,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_185",
+                  "@type": "doc:Word",
+                  "cnt:chars": "si",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2217,3484,37,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_186",
+                  "@type": "doc:Word",
+                  "cnt:chars": "DAUBENTONIUS",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2325,3486,414,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_187",
+                  "@type": "doc:Word",
+                  "cnt:chars": "bina",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2808,3484,111,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_188",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Si-",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2987,3484,70,47"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_24",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_189",
+                  "@type": "doc:Word",
+                  "cnt:chars": "nensium",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=789,3580,216,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_190",
+                  "@type": "doc:Word",
+                  "cnt:chars": "capita",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1064,3580,152,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_191",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ossea",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1276,3595,135,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_192",
+                  "@type": "doc:Word",
+                  "cnt:chars": "in",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1469,3580,48,46"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_193",
+                  "@type": "doc:Word",
+                  "cnt:chars": "museo",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1575,3595,169,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_194",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Parisino",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1804,3580,208,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_195",
+                  "@type": "doc:Word",
+                  "cnt:chars": "nullo",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2071,3580,128,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_196",
+                  "@type": "doc:Word",
+                  "cnt:chars": "notabili",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2258,3580,194,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_197",
+                  "@type": "doc:Word",
+                  "cnt:chars": "charactere",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2513,3580,266,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_198",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ab",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2838,3580,57,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_199",
+                  "@type": "doc:Word",
+                  "cnt:chars": "istis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2955,3580,101,47"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_25",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_200",
+                  "@type": "doc:Word",
+                  "cnt:chars": "suae",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=790,3691,111,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_201",
+                  "@type": "doc:Word",
+                  "cnt:chars": "gentis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=920,3676,150,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_202",
+                  "@type": "doc:Word",
+                  "cnt:chars": "differre",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1090,3676,190,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_203",
+                  "@type": "doc:Word",
+                  "cnt:chars": "scribat.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1300,3676,185,47"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_26",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_204",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Quod",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=940,3772,145,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_205",
+                  "@type": "doc:Word",
+                  "cnt:chars": "vero",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1159,3787,112,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_206",
+                  "@type": "doc:Word",
+                  "cnt:chars": "LINNEUS",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1349,3774,227,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_207",
+                  "@type": "doc:Word",
+                  "cnt:chars": "in",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1655,3772,48,46"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_208",
+                  "@type": "doc:Word",
+                  "cnt:chars": "systemate",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1780,3780,251,52"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_209",
+                  "@type": "doc:Word",
+                  "cnt:chars": "naturae",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2106,3780,191,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_210",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Sinenses",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2375,3772,219,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_211",
+                  "@type": "doc:Word",
+                  "cnt:chars": "macrocephalos",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2669,3772,388,60"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_27",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_212",
+                  "@type": "doc:Word",
+                  "cnt:chars": "capite",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=790,3867,153,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_213",
+                  "@type": "doc:Word",
+                  "cnt:chars": "conico",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1005,3867,168,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_214",
+                  "@type": "doc:Word",
+                  "cnt:chars": "vocet",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1235,3875,137,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_215",
+                  "@type": "doc:Word",
+                  "cnt:chars": "et",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1435,3875,44,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_216",
+                  "@type": "doc:Word",
+                  "cnt:chars": "cum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1541,3882,110,32"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_217",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Alpium",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1712,3867,196,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_218",
+                  "@type": "doc:Word",
+                  "cnt:chars": "et",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1971,3875,44,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_219",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Patagoniae",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2077,3867,281,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_220",
+                  "@type": "doc:Word",
+                  "cnt:chars": "incolis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2419,3867,167,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_221",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ad",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2649,3867,59,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_222",
+                  "@type": "doc:Word",
+                  "cnt:chars": "monstrosas",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2770,3877,283,37"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_28",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_223",
+                  "@type": "doc:Word",
+                  "cnt:chars": "humani",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=789,3963,193,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_224",
+                  "@type": "doc:Word",
+                  "cnt:chars": "generis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1049,3963,183,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_225",
+                  "@type": "doc:Word",
+                  "cnt:chars": "varietates",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1296,3963,245,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_226",
+                  "@type": "doc:Word",
+                  "cnt:chars": "releget,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1606,3963,186,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_227",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ni",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1861,3963,47,46"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_228",
+                  "@type": "doc:Word",
+                  "cnt:chars": "fallor",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1973,3963,137,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_229",
+                  "@type": "doc:Word",
+                  "cnt:chars": "vnice",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2173,3963,138,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_230",
+                  "@type": "doc:Word",
+                  "cnt:chars": "de",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2378,3963,58,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_231",
+                  "@type": "doc:Word",
+                  "cnt:chars": "sacerdotibus",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2503,3963,320,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_232",
+                  "@type": "doc:Word",
+                  "cnt:chars": "eorum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2890,3978,166,32"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_29",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_233",
+                  "@type": "doc:Word",
+                  "cnt:chars": "mendicantibus",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=788,4059,378,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_234",
+                  "@type": "doc:Word",
+                  "cnt:chars": "intelligendum",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1245,4059,354,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_235",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quibus",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1678,4059,167,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_236",
+                  "@type": "doc:Word",
+                  "cnt:chars": "NIEUHOFIUS",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1926,4061,321,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_237",
+                  "@type": "doc:Word",
+                  "cnt:chars": "capita",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2329,4059,151,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_238",
+                  "@type": "doc:Word",
+                  "cnt:chars": "violentis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2557,4059,218,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_239",
+                  "@type": "doc:Word",
+                  "cnt:chars": "et",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2855,4067,44,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_240",
+                  "@type": "doc:Word",
+                  "cnt:chars": "diu",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2979,4059,79,47"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_30",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_241",
+                  "@type": "doc:Word",
+                  "cnt:chars": "repetitis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=788,4155,210,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_242",
+                  "@type": "doc:Word",
+                  "cnt:chars": "artificiis",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1083,4155,207,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_243",
+                  "@type": "doc:Word",
+                  "cnt:chars": "monstrose",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1374,4163,266,39"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_244",
+                  "@type": "doc:Word",
+                  "cnt:chars": "deformari,",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1725,4155,268,55"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_245",
+                  "@type": "doc:Word",
+                  "cnt:chars": "quondam",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2082,4155,240,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_246",
+                  "@type": "doc:Word",
+                  "cnt:chars": "contenderat.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2408,4155,314,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_247",
+                  "@type": "doc:Word",
+                  "cnt:chars": "v.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2809,4171,43,31"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_248",
+                  "@type": "doc:Word",
+                  "cnt:chars": "NIC.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2945,4157,111,45"
+                }
+              ]
+            },
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_31",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_249",
+                  "@type": "doc:Word",
+                  "cnt:chars": "MELCHIS.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=790,4253,254,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_250",
+                  "@type": "doc:Word",
+                  "cnt:chars": "THEVENOT",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1066,4253,287,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_251",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Re'lations",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1372,4251,237,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_252",
+                  "@type": "doc:Word",
+                  "cnt:chars": "de",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1626,4251,60,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_253",
+                  "@type": "doc:Word",
+                  "cnt:chars": "divers",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1703,4251,150,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_254",
+                  "@type": "doc:Word",
+                  "cnt:chars": "voyages",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1873,4267,199,44"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_255",
+                  "@type": "doc:Word",
+                  "cnt:chars": "etc.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2091,4261,76,37"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_256",
+                  "@type": "doc:Word",
+                  "cnt:chars": "T.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2194,4253,51,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_257",
+                  "@type": "doc:Word",
+                  "cnt:chars": "III.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2269,4253,75,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_258",
+                  "@type": "doc:Word",
+                  "cnt:chars": "p.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2366,4266,45,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_259",
+                  "@type": "doc:Word",
+                  "cnt:chars": "67.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2434,4252,77,46"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_260",
+                  "@type": "doc:Word",
+                  "cnt:chars": "fig.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2532,4251,76,60"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_261",
+                  "@type": "doc:Word",
+                  "cnt:chars": "11.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2637,4252,71,46"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_9",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_32",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_262",
+                  "@type": "doc:Word",
+                  "cnt:chars": "n).",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=714,4406,66,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_263",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Description",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=802,4407,289,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_264",
+                  "@type": "doc:Word",
+                  "cnt:chars": "de",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1111,4405,59,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_265",
+                  "@type": "doc:Word",
+                  "cnt:chars": "la",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1189,4405,47,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_266",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Chine.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1257,4405,158,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_267",
+                  "@type": "doc:Word",
+                  "cnt:chars": "T.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1437,4407,51,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_268",
+                  "@type": "doc:Word",
+                  "cnt:chars": "II.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1512,4407,53,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_269",
+                  "@type": "doc:Word",
+                  "cnt:chars": "p.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1587,4420,45,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_270",
+                  "@type": "doc:Word",
+                  "cnt:chars": "275.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1655,4406,110,46"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_271",
+                  "@type": "doc:Word",
+                  "cnt:chars": "ed.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1789,4405,73,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_272",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Haganae",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1885,4407,223,58"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_273",
+                  "@type": "doc:Word",
+                  "cnt:chars": "1736.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2132,4406,139,46"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_274",
+                  "@type": "doc:Word",
+                  "cnt:chars": "4.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2293,4406,44,46"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_10",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_33",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_275",
+                  "@type": "doc:Word",
+                  "cnt:chars": "o).",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=715,4598,65,57"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_276",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Reise",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=802,4599,132,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_277",
+                  "@type": "doc:Word",
+                  "cnt:chars": "nach",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=953,4597,123,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_278",
+                  "@type": "doc:Word",
+                  "cnt:chars": "Ostindien",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1096,4597,237,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_279",
+                  "@type": "doc:Word",
+                  "cnt:chars": "und",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1354,4597,98,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_280",
+                  "@type": "doc:Word",
+                  "cnt:chars": "China",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1470,4597,150,47"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_281",
+                  "@type": "doc:Word",
+                  "cnt:chars": "p.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1639,4612,46,45"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_282",
+                  "@type": "doc:Word",
+                  "cnt:chars": "226.",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1708,4598,110,46"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_11",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_34",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_283",
+                  "@type": "doc:Word",
+                  "cnt:chars": " ",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=604,4904,2452,5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/area/11_12",
+          "@type": "doc:Area",
+          "lines": [
+            {
+              "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/line/11_35",
+              "@type": "doc:Line",
+              "words": [
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_284",
+                  "@type": "doc:Word",
+                  "cnt:chars": "B2",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=1572,5053,89,55"
+                },
+                {
+                  "@id": "http://localhost:8080/fcrepo/rest/collection/test/009/word/11_285",
+                  "@type": "doc:Word",
+                  "cnt:chars": "VARIE-",
+                  "on": "http://localhost:8080/fcrepo/rest/collection/test/009/canvas/11#xywh=2639,5053,262,56"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

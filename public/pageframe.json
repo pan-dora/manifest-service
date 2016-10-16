@@ -1,0 +1,22 @@
+{
+  "@context": "http://localhost:3000/listcontext.json",
+  "@type": "doc:Page",
+      "areas": [
+        {
+          "@type": "doc:Area",
+          "@embed": true,
+          "lines": [
+            {
+              "@type": "doc:Line",
+              "@embed": true,
+              "words": [
+                {
+                  "@type": "doc:Word",
+                  "@embed": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+}
