@@ -41,7 +41,7 @@ CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?listid rdf:rest ?annolistidrest .
 }
 
-WHERE {values ?manifest {?node}
+WHERE {values ?manifest {<?node>}
 ?manifest sc:hasSequences ?seqid .
 ?seqid rdf:first ?sequence .
 ?seqid rdf:rest ?seqrest .

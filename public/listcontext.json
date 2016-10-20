@@ -52,6 +52,9 @@
         "@type": "@id",
         "@id": "doc:hasWords",
         "@container": "@list"
+      },
+      "chars": {
+        "@id": "cnt:chars"
       }
     }
   ]

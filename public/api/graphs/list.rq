@@ -20,6 +20,8 @@ CONSTRUCT {?list rdf:type sc:AnnotationList .
 ?wordnode oa:hasBody ?word .
 ?wordnode oa:hasTarget ?newwordtarget .
 ?word cnt:chars ?chars .
+?word rdf:type cnt:ContentAsText .
+?word dc:format "text/plain" .
 }
 
 WHERE {values ?list {<?node>}
