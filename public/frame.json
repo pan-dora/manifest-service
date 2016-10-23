@@ -20,7 +20,7 @@
           "otherContent": [
             {
               "@type": "sc:AnnotationList",
-              "@embed": false
+              "@embed": true
             }
           ]
         }

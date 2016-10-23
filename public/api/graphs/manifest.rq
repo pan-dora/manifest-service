@@ -11,6 +11,7 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?manifest sc:hasSequences ?seqid .
+?manifest rdfs:label ?label .
 ?seqid rdf:first ?sequence .
 ?seqid rdf:rest ?seqrest .
 ?sequence rdf:type sc:Sequence .
@@ -36,13 +37,15 @@ CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?image exif:width ?iwidth .
 ?image dc:format ?format .
 ?canvas sc:hasLists ?listid .
-?listid rdf:first ?annolistid .
+?mid2 rdf:first ?annolistid .
+?annolistid svcs:has_service ?listservice .
+?mid2 rdf:rest ?annolistidrest .
 ?annolistid rdf:type sc:AnnotationList .
-?listid rdf:rest ?annolistidrest .
 }
 
 WHERE {values ?manifest {<?node>}
 ?manifest sc:hasSequences ?seqid .
+OPTIONAL {?manifest rdfs:label ?label } .
 ?seqid rdf:first ?sequence .
 ?seqid rdf:rest ?seqrest .
 ?sequence sc:hasCanvases ?canvaslist .
@@ -59,7 +62,9 @@ WHERE {values ?manifest {<?node>}
 ?image exif:width ?iwidth .
 ?image dc:format ?format .
 ?canvas sc:hasLists ?listid .
-?listid rdf:first ?annolistid .
-?listid rdf:rest ?annolistidrest .
+?listid rdf:rest* ?mid2 .
+?mid2 rdf:first ?annolistid .
+OPTIONAL {?annolistid svcs:has_service ?listservice } .
+?mid2 rdf:rest ?annolistidrest .
 }
 
