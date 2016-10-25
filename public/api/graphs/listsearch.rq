@@ -1,0 +1,28 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX sc: <http://iiif.io/api/presentation/2#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX exif: <http://www.w3.org/2003/12/exif/ns#>
+PREFIX svcs: <http://rdfs.org/sioc/services#>
+PREFIX dctypes: <http://purl.org/dc/dcmitype/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX fedora: <http://fedora.info/definitions/v4/repository#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX doc: <http://iiif.io/api/text#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX cnt: <http://www.w3.org/2011/content#>
+CONSTRUCT {<http://dor.local.org/annoservices/search/> rdf:type sc:AnnotationList .
+<http://dor.local.org/annoservices/search/> sc:hasAnnotations ?word .
+?word rdf:type oa:Annotation .
+?word oa:hasTarget ?newwordtarget .
+?word oa:hasBody ?annoid .
+?annoid cnt:chars ?chars .
+}
+
+WHERE {
+?word oa:hasTarget ?wordtarget .
+BIND (URI(REPLACE (STR(?wordtarget),"%2C",","))AS ?newwordtarget)
+?word cnt:chars ?chars .
+FILTER regex(str(?chars), "?q") .
+BIND(BNODE(REPLACE(STR(?word),"(.+?)/word/(.+?)","_:b$2" )) AS ?annoid) .
+}

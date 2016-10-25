@@ -1,0 +1,25 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX sc: <http://iiif.io/api/presentation/2#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX exif: <http://www.w3.org/2003/12/exif/ns#>
+PREFIX svcs: <http://rdfs.org/sioc/services#>
+PREFIX dctypes: <http://purl.org/dc/dcmitype/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX fedora: <http://fedora.info/definitions/v4/repository#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+
+CONSTRUCT {?manifest rdf:type sc:Manifest .
+?manifest sc:hasRanges ?rangelist .
+?rangelist rdf:first ?range .
+?rangelist rdf:rest ?rangerest .
+?range sc:hasParts ?parts
+}
+
+WHERE {values ?manifest {<?node>}
+?manifest sc:hasRanges ?rangelist .
+?rangelist rdf:first ?range .
+?rangelist rdf:rest ?rangerest .
+?range sc:hasParts ?parts
+}

@@ -41,9 +41,17 @@ CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?annolistid svcs:has_service ?listservice .
 ?mid2 rdf:rest ?annolistidrest .
 ?annolistid rdf:type sc:AnnotationList .
+?manifest sc:hasRanges ?rangelist .
+?rangelist rdf:first ?range .
+?range rdf:type sc:Range .
+?rangelist rdf:rest ?rangerest .
+?range sc:hasParts ?parts .
+?manifest svcs:has_service ?searchservice .
+?searchservice doap:implements <http://iiif.io/api/search/0/search>
 }
 
-WHERE {values ?manifest {<?node>}
+WHERE {values ?manifest {<http://localhost:8080/fcrepo/rest/collection/?node/manifest>} .
+values ?searchservice {<http://localhost:3000/api/graphs/listsearch.nt?$q=>} .
 ?manifest sc:hasSequences ?seqid .
 OPTIONAL {?manifest rdfs:label ?label } .
 ?seqid rdf:first ?sequence .
@@ -66,5 +74,9 @@ OPTIONAL {?manifest rdfs:label ?label } .
 ?mid2 rdf:first ?annolistid .
 OPTIONAL {?annolistid svcs:has_service ?listservice } .
 ?mid2 rdf:rest ?annolistidrest .
+?manifest sc:hasRanges ?rangelist .
+?rangelist rdf:first ?range .
+?rangelist rdf:rest ?rangerest .
+?range sc:hasParts ?parts
 }
 

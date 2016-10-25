@@ -55,6 +55,11 @@
       "@type": "@id",
       "@id": "sc:hasContentLayer"
     },
+    "members": {
+      "@type": "@id",
+      "@id": "sc:hasParts",
+      "@container": "@set"
+    },
     "collections": {
       "@type": "@id",
       "@id": "sc:hasCollections",
@@ -78,7 +83,7 @@
     "resources": {
       "@type": "@id",
       "@id": "sc:hasAnnotations",
-      "@container": "@list"
+      "@container": "@set"
     },
     "images": {
       "@type": "@id",
@@ -91,11 +96,6 @@
       "@container": "@list"
     },
     "structures": {
-      "@type": "@id",
-      "@id": "sc:hasRanges",
-      "@container": "@list"
-    },
-    "ranges": {
       "@type": "@id",
       "@id": "sc:hasRanges",
       "@container": "@list"

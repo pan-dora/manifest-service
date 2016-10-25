@@ -1,0 +1,9 @@
+{
+  "@context": "http://localhost:3000/listsearchcontext.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@type": "oa:Annotation"
+    }
+  ]
+}
