@@ -45,13 +45,13 @@ fs.writeFile(apiConfigFile, JSON.stringify(apiConfig, null, 4), function (err) {
 });
 
 //Update Hydra context with actual URL
-var hydraContextFile = "./public/api/hydra.jsonld";
+var hydraContextFile = "./public/api/hydra.json";
 siteRootUrl = functions.getSiteRootUrl();
 fs.readFile(hydraContextFile,'utf8', function (err, data) {
   if (err) {throw err} else {
     var hydraContext = JSON.parse(data);
-    hydraContext["@base"] = siteRootUrl + "/api/hydra.jsonld#";
-    hydraContext["@id"] = siteRootUrl + "/api/hydra.jsonld";
+    hydraContext["@base"] = siteRootUrl + "/api/hydra.json#";
+    hydraContext["@id"] = siteRootUrl + "/api/hydra.json";
     fs.writeFile(hydraContextFile, JSON.stringify(hydraContext, null, 4), function (err) {
       if (err) return console.log(err);
       debug('Writing Hydra context to ' + hydraContextFile);

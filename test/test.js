@@ -157,7 +157,7 @@ describe('Using canned queries', function() {
 describe('Describing API resources with Hydra vocabulary', function() {
 	it('The API documentation is available and with the right @id.', function(done) {
 		request(app)
-			.get('/api/hydra.jsonld')
+			.get('/api/hydra.json')
 			.expect(function(response) {
 				if (response.body["@id"].indexOf(config.get('app.public.hostname'))) {
 					return "The context @id is good."; }

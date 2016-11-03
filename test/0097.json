@@ -1,0 +1,1694 @@
+{
+  "@context": "http://localhost:3000/context.json",
+  "@graph": [
+    {
+      "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/manifest",
+      "@type": "sc:Manifest",
+      "sc:hasRanges": null,
+      "sequences": [
+        {
+          "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/sequence/normal",
+          "@type": "sc:Sequence",
+          "canvases": [
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/001",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b34",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/001.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.001",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3157",
+                    "width": "2653"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/001",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/001",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "001",
+              "height": "3157",
+              "width": "2653"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/002",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b45",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/002.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.002",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3120",
+                    "width": "2654"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/002",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/002",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "002",
+              "height": "3120",
+              "width": "2654"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/003",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b10",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/003.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.003",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3141",
+                    "width": "2654"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/003",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/003",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "003",
+              "height": "3141",
+              "width": "2654"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/004",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b22",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/004.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.004",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3118",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/004",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/004",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "004",
+              "height": "3118",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/005",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b20",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/005.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.005",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3119",
+                    "width": "2653"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/005",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/005",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/005"
+                }
+              ],
+              "label": "005",
+              "height": "3119",
+              "width": "2653"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/006",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b33",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/006.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.006",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3118",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/006",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/006",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/006"
+                }
+              ],
+              "label": "006",
+              "height": "3118",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/007",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b15",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/007.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.007",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3120",
+                    "width": "2653"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/007",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/007",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/007"
+                }
+              ],
+              "label": "007",
+              "height": "3120",
+              "width": "2653"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/008",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b32",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/008.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.008",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3119",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/008",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/008",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/008"
+                }
+              ],
+              "label": "008",
+              "height": "3119",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/009",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b19",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/009.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.009",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3120",
+                    "width": "2653"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/009",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/009",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/009"
+                }
+              ],
+              "label": "009",
+              "height": "3120",
+              "width": "2653"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/010",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b44",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/010.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.010",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3119",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/010",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/010",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/010"
+                }
+              ],
+              "label": "010",
+              "height": "3119",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/011",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b48",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/011.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.011",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3120",
+                    "width": "2654"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/011",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/011",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/011"
+                }
+              ],
+              "label": "011",
+              "height": "3120",
+              "width": "2654"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/012",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b14",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/012.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.012",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3119",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/012",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/012",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/012"
+                }
+              ],
+              "label": "012",
+              "height": "3119",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/013",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b0",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/013.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.013",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3119",
+                    "width": "2653"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/013",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/013",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/013"
+                }
+              ],
+              "label": "013",
+              "height": "3119",
+              "width": "2653"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/014",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b30",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/014.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.014",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3119",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/014",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/014",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/014"
+                }
+              ],
+              "label": "014",
+              "height": "3119",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/015",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b12",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/015.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.015",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3119",
+                    "width": "2653"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/015",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/015",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/015"
+                }
+              ],
+              "label": "015",
+              "height": "3119",
+              "width": "2653"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/016",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b46",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/016.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.016",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/016",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/016",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/016"
+                }
+              ],
+              "label": "016",
+              "height": "3108",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/017",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b16",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/017.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.017",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3103",
+                    "width": "2653"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/017",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/017",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/017"
+                }
+              ],
+              "label": "017",
+              "height": "3103",
+              "width": "2653"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/018",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b11",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/018.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.018",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/018",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/018",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/018"
+                }
+              ],
+              "label": "018",
+              "height": "3108",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/019",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b6",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/019.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.019",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3102",
+                    "width": "2620"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/019",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/019",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/019"
+                }
+              ],
+              "label": "019",
+              "height": "3102",
+              "width": "2620"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/020",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b8",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/020.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.020",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/020",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/020",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/020"
+                }
+              ],
+              "label": "020",
+              "height": "3108",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/021",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b1",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/021.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.021",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3102",
+                    "width": "2620"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/021",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/021",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/021"
+                }
+              ],
+              "label": "021",
+              "height": "3102",
+              "width": "2620"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/022",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b25",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/022.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.022",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/022",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/022",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/022"
+                }
+              ],
+              "label": "022",
+              "height": "3108",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/023",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b40",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/023.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.023",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3102",
+                    "width": "2620"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/023",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/023",
+                  "@type": "sc:AnnotationList",
+                  "service": "http://service.b-ol.de/api/graphs/list.nt?$node=http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/023"
+                }
+              ],
+              "label": "023",
+              "height": "3102",
+              "width": "2620"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/024",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b41",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/024.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.024",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/024",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/024",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "024",
+              "height": "3108",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/025",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b7",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/025.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.025",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3102",
+                    "width": "2478"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/025",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/025",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "025",
+              "height": "3102",
+              "width": "2478"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/026",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b43",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/026.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.026",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/026",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/026",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "026",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/027",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b5",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/027.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.027",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3102",
+                    "width": "2632"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/027",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/027",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "027",
+              "height": "3102",
+              "width": "2632"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/028",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b24",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/028.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.028",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/028",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/028",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "028",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/029",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b9",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/029.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.029",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3084",
+                    "width": "2505"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/029",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/029",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "029",
+              "height": "3084",
+              "width": "2505"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/030",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b36",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/030.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.030",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/030",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/030",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "030",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/031",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b38",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/031.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.031",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3084",
+                    "width": "2567"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/031",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/031",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "031",
+              "height": "3084",
+              "width": "2567"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/032",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b29",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/032.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.032",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/032",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/032",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "032",
+              "height": "3108",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/033",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b18",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/033.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.033",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3100",
+                    "width": "2632"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/033",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/033",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "033",
+              "height": "3100",
+              "width": "2632"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/034",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b28",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/034.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.034",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/034",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/034",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "034",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/035",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b2",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/035.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.035",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3080",
+                    "width": "2632"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/035",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/035",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "035",
+              "height": "3080",
+              "width": "2632"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/036",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b13",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/036.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.036",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/036",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/036",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "036",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/037",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b17",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/037.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.037",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3080",
+                    "width": "2666"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/037",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/037",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "037",
+              "height": "3080",
+              "width": "2666"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/038",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b35",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/038.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.038",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/038",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/038",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "038",
+              "height": "3108",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/039",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b23",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/039.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.039",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3079",
+                    "width": "2600"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/039",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/039",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "039",
+              "height": "3079",
+              "width": "2600"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/040",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b49",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/040.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.040",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2611"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/040",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/040",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "040",
+              "height": "3108",
+              "width": "2611"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/041",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b26",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/041.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.041",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3063",
+                    "width": "2599"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/041",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/041",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "041",
+              "height": "3063",
+              "width": "2599"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/042",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b31",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/042.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.042",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/042",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/042",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "042",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/043",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b4",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/043.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.043",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3063",
+                    "width": "2599"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/043",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/043",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "043",
+              "height": "3063",
+              "width": "2599"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/044",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b37",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/044.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.044",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/044",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/044",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "044",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/045",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b42",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/045.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.045",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/045",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/045",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "045",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/046",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b3",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/046.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.046",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3108",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/046",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/046",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "046",
+              "height": "3108",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/047",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b47",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/047.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.047",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3131",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/047",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/047",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "047",
+              "height": "3131",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/048",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b39",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/048.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.048",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3118",
+                    "width": "2610"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/048",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/048",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "048",
+              "height": "3118",
+              "width": "2610"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/049",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b27",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/049.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.049",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3120",
+                    "width": "2654"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/049",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/049",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "049",
+              "height": "3120",
+              "width": "2654"
+            },
+            {
+              "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/050",
+              "@type": "sc:Canvas",
+              "images": [
+                {
+                  "@id": "_:b21",
+                  "@type": "oa:Annotation",
+                  "resource": {
+                    "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/res/050.tif",
+                    "@type": "dctypes:Image",
+                    "format": "image/tiff",
+                    "service": {
+                      "@id": "http://dj.b-ol.de/iiif/edition.0097.050",
+                      "@type": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level1.json"
+                    },
+                    "height": "3152",
+                    "width": "2665"
+                  },
+                  "on": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/canvas/050",
+                  "motivation": "sc:painting"
+                }
+              ],
+              "otherContent": [
+                {
+                  "@id": "http://dor.b-ol.de/fcrepo/rest/collection/edition/0097/list/050",
+                  "@type": "sc:AnnotationList"
+                }
+              ],
+              "label": "050",
+              "height": "3152",
+              "width": "2665"
+            }
+          ],
+          "startCanvas": null,
+          "viewingHint": "paged"
+        }
+      ],
+      "service": {
+        "@id": "http://service.b-ol.de/api/graphs/listsearch.nt?$q=",
+        "profile": "http://iiif.io/api/search/0/search"
+      },
+      "label": "Decas Sexta Collectionis Suae Craniorum Diversarum Gentium Illustrata"
+    }
+  ]
+}

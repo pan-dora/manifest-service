@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@vocab": "http://www.w3.org/ns/hydra/core#",
+        "router": "/hydra.json#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "@id": "http://service.b-ol.de/api/hydra.json",
+    "@type": "ApiDocumentation",
+    "supportedClass": [
+        {
+            "@id": "router:EntryPoint",
+            "@type": "Class",
+            "rdfs:comment": "The main entry point of the API.",
+            "rdfs:label": "EntryPoint",
+            "supportedOperation": {
+                "@id": "router:EntryPoint/GET",
+                "@type": "Operation",
+                "rdfs:label": "The APIs main entry point.",
+                "method": "GET",
+                "returns": {
+                    "@id": "router:EntryPoint"
+                },
+                "statusCodes": []
+            },
+            "supportedProperty": [
+                {
+                    "property": {
+                        "@id": "router:EntryPoint/api/tables",
+                        "@type": "Link",
+                        "rdfs:label": "tables",
+                        "rdfs:comment": "The collection of all the queries that return data tables.",
+                        "domain": "router:EntryPoint",
+                        "range": "Collection",
+                        "supportedOperation": [
+                            {
+                                "@id": "router:EntryPoint/api/tables/GET",
+                                "@type": "Operation",
+                                "method": "GET",
+                                "rdfs:label": "Retrieves all table queries.",
+                                "returns": "Collection"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "property": {
+                        "@id": "router:EntryPoint/api/graphs",
+                        "@type": "Link",
+                        "rdfs:label": "graphs",
+                        "rdfs:comment": "The collection of all the queries that return data graphs.",
+                        "domain": "router:EntryPoint",
+                        "range": "Collection",
+                        "supportedOperation": [
+                            {
+                                "@id": "router:EntryPoint/api/graphs/GET",
+                                "@type": "Operation",
+                                "method": "GET",
+                                "rdfs:label": "Retrieves all graph queries.",
+                                "returns": "Collection"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "property": {
+                        "@id": "router:paramQuery",
+                        "@type": "TemplatedLink",
+                        "rdfs:label": "Query with Parameter",
+                        "domain": "router:EntryPoint",
+                        "range": "Resource",
+                        "supportedOperation": [
+                            {
+                                "@id": "router:EntryPoint/api/graphs/{query}?${node}/GET",
+                                "@type": "Operation",
+                                "method": "GET",
+                                "rdfs:label": "Retrieves a Query Resource",
+                                "returns": "Resource"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "router:SparqlQuery",
+            "@type": "Class",
+            "subClassOf": "Resource",
+            "rdfs:label": "SPARQL query",
+            "rdfs:comment": "A SPARQL query that was saved on the server and that can be triggered with a GET call.",
+            "supportedOperation": [
+                {
+                    "@id": "router:getQueryResults",
+                    "@type": "Operation",
+                    "method": "GET",
+                    "rdfs:label": "Triggers the canned query and returns the query results."
+                },
+                {
+                    "@id": "router:createOrUpdateQuery",
+                    "@type": "Operation",
+                    "method": "PUT",
+                    "rdfs:label": "Receives a SPARQL query as text and creates or updates a query.",
+                    "statusCodes": [
+                        {
+                            "code": 201,
+                            "rdfs:comment": "If the query was successfully created."
+                        },
+                        {
+                            "code": 200,
+                            "rdfs:comment": "If the query existed and was successfully updated."
+                        }
+                    ]
+                },
+                {
+                    "@id": "router:deleteQuery",
+                    "@type": "Operation",
+                    "method": "DELETE",
+                    "rdfs:label": "Deletes an existing query.",
+                    "statusCodes": [
+                        {
+                            "code": 200,
+                            "rdfs:comment": "The query was successfully deleted."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "router:paramQuery",
+            "@type": "IriTemplate",
+            "template": "router:EntryPoint/graphs/{query}?${node}",
+            "mappings": [
+                {
+                    "@type": "IriTemplateMapping",
+                    "variable": "node",
+                    "property": "router:SparqlQuery",
+                    "required": true
+                },
+                {
+                    "@type": "IriTemplateMapping",
+                    "variable": "node",
+                    "property": "hydra:variable",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "@base": "http://service.b-ol.de/api/hydra.json#"
+}
