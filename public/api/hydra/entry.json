@@ -1,0 +1,8 @@
+{
+  "@context": {"@vocab": "http://www.w3.org/ns/hydra/core#"},
+  "@id": "/api/hydra",
+  "@type": "http://service.b-ol.de/api/hydra.json#EntryPoint",
+  "http://service.b-ol.de/api/hydra.json#EntryPoint/api/tables": {"@id": "/api/tables"},
+  "http://service.b-ol.de/api/hydra.json#EntryPoint/api/graphs": {"@id": "/api/graphs/"},
+  "http://service.b-ol.de/api/hydra.json#paramQuery": {"@id": "/api/graphs/{query}?${node}"}
+}
