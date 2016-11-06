@@ -4,5 +4,5 @@
   "@type": "http://service.b-ol.de/api/hydra.json#EntryPoint",
   "http://service.b-ol.de/api/hydra.json#EntryPoint/api/tables": {"@id": "/api/tables"},
   "http://service.b-ol.de/api/hydra.json#EntryPoint/api/graphs": {"@id": "/api/graphs/"},
-  "http://service.b-ol.de/api/hydra.json#paramQuery": {"@id": "/api/graphs/{query}?${node}"}
+  "http://iiif.io/api/presentation/2#Manifest": {"@id": "/api/graphs/manifest.nt?node={node}"}
 }

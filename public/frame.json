@@ -1,11 +1,13 @@
 {
   "@context": "http://localhost:3000/context.json",
   "@type": "sc:Manifest",
+  "@explicit": true,
   "sequences": [
     {
       "@type": "sc:Sequence",
       "startCanvas": {
         "@type": "sc:Canvas",
+        "@omitDefault": true,
         "@embed": false
       },
       "canvases": [
@@ -31,6 +33,7 @@
     {
       "@type": "sc:Range",
       "@embed": true,
+      "@omitDefault": true,
       "canvases": [
         {
           "@embed": false

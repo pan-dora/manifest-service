@@ -8,7 +8,7 @@ var dontDelete = false;
 
 
 var
-    hydra = require('../'),
+    hydra = require('hydra-core'),
     jsonldp = require('jsonld').promises();
 
 var config = {

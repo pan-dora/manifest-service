@@ -521,7 +521,7 @@
             }
         }
     },
-    "host": "service.b-ol.de",
+    "host": "localhost:3000",
     "schemes": [
         "http"
     ]
