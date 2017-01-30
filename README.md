@@ -6,7 +6,7 @@
 ### Hydra Core Support
 * A generic client implementing [hydra-core](https://github.com/christopher-johnson/hydra-core) can call the service entry
 point (the base URL) with a application/ld+json request and get the hydra:apiDocumentation.
-* A sample client implementation can be found [here](https://github.com/manifest-service/src/hydra-client/manifest-example.js)
+* A sample client implementation can be found [here](https://github.com/pan-dora/manifest-service/blob/master/src/hydra-client/hydra-client.js)
 * For a manifest response, the client simply asks for the class "http://iiif.io/api/presentation/2#Manifest" and defines the
 {node} variable in an object that is then parsed into a hydra:IriTemplate by the server.
 
