@@ -98,7 +98,7 @@
     "structures": {
       "@type": "@id",
       "@id": "sc:hasRanges",
-      "@container": "@list"
+      "@container": "@set"
     },
     "metadata": {
       "@type": "@id",

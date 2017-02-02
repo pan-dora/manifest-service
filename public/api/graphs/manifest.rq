@@ -52,7 +52,7 @@ CONSTRUCT {?manifest rdf:type sc:Manifest .
 }
 
 WHERE {values ?manifest {<http://dor.local.org/fcrepo/rest/collection/?node/manifest>} .
-values ?searchservice {<http://localhost:3000/api/graphs/listsearch.nt?$q=>} .
+values ?searchservice {<http://localhost:3000/api/graphs/listsearch.nt>} .
 ?manifest sc:hasSequences ?seqid .
 OPTIONAL {?manifest rdfs:label ?label } .
 ?seqid rdf:first ?sequence .

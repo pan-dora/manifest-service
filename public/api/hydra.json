@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "http://www.w3.org/ns/hydra/core#"
   },
-  "@id": "http://service.b-ol.de/api/hydra.json",
+  "@id": "http://localhost:3000/api/hydra.json",
   "@type": "ApiDocumentation",
   "supportedClass": [
     {
@@ -61,18 +61,19 @@
         },
         {
           "property": {
-            "@id": "http://service.b-ol.de/api/hydra.json#paramQuery",
+            "@id": "http://iiif.io/api/presentation/2#Manifest",
             "@type": "TemplatedLink",
-            "http://www.w3.org/2000/01/rdf-schema#label": "Query with Parameter",
+            "http://www.w3.org/2000/01/rdf-schema#label": "IIIF Manifest",
             "domain": "http://service.b-ol.de/api/hydra.json#EntryPoint",
             "range": "Resource",
             "supportedOperation": [
               {
-                "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint/api/graphs/{query}?${node}/GET",
+                "@id": "http://iiif.io/api/presentation/2#Manifest/GET",
                 "@type": "Operation",
+                "expects": "http://www.w3.org/ns/hydra/core#IriTemplate",
                 "method": "GET",
-                "http://www.w3.org/2000/01/rdf-schema#label": "Retrieves a Query Resource",
-                "returns": "Resource"
+                "http://www.w3.org/2000/01/rdf-schema#label": "Retrieves a Manifest Resource",
+                "returns": "http://www.w3.org/ns/hydra/core#Resource"
               }
             ]
           }
@@ -124,23 +125,40 @@
       ]
     },
     {
-      "@id": "http://service.b-ol.de/api/hydra.json#paramQuery",
-      "@type": "IriTemplate",
-      "template": "http://service.b-ol.de/api/hydra.json#EntryPoint/graphs/{query}?${node}",
-      "mappings": [
+      "@id": "http://iiif.io/api/presentation/2#Manifest",
+      "@type": "Class",
+      "template": "http://service.b-ol.de/api/graphs/manifest.nt?node={node}",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "A IIIF Manifest",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Manifest",
+      "supportedOperation": {
+        "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint/GET",
+        "@type": "Operation",
+        "http://www.w3.org/2000/01/rdf-schema#label": "The APIs main entry point.",
+        "method": "GET",
+        "returns": {
+          "@id": "http://iiif.io/api/presentation/2#Manifest"
+        },
+        "statusCodes": []
+      }
+    },
+    {
+      "@id": "http://www.w3.org/ns/hydra/core#IriTemplate",
+      "@type": "Class",
+      "template": "http://service.b-ol.de/api/hydra.json#EntryPoint/graphs/{query}?node={node}",
+      "variableRepresentation": "BasicRepresentation",
+      "mapping": [
         {
           "@type": "IriTemplateMapping",
-          "variable": "node",
-          "property": "http://service.b-ol.de/api/hydra.json#SparqlQuery",
-          "required": true
+          "variable": "query",
+          "required": false
         },
         {
           "@type": "IriTemplateMapping",
           "variable": "node",
-          "property": "hydra:variable",
           "required": true
         }
       ]
     }
-  ]
+  ],
+  "@base": "http://localhost:3000/api/hydra.json#"
 }

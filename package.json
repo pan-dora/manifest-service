@@ -54,11 +54,13 @@
     "helmet": "^1.3.0",
     "http": "0.0.0",
     "https": "^1.0.0",
+    "hydra-core": "christopher-johnson/hydra-core",
     "passport": "^0.3.2",
     "passport-http": "^0.3.0",
     "pkginfo": "latest",
     "pug": "^2.0.0-alpha7",
     "sparqljs": "^1.1.4",
+    "uri-templates": "latest",
     "vue": "^1.0.24"
   },
   "devDependencies": {
