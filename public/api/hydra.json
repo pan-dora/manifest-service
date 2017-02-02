@@ -6,32 +6,32 @@
   "@type": "ApiDocumentation",
   "supportedClass": [
     {
-      "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint",
+      "@id": "http://localhost:3000/api/hydra.json#EntryPoint",
       "@type": "Class",
       "http://www.w3.org/2000/01/rdf-schema#comment": "The main entry point of the API.",
       "http://www.w3.org/2000/01/rdf-schema#label": "EntryPoint",
       "supportedOperation": {
-        "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint/GET",
+        "@id": "http://localhost:3000/api/hydra.json#EntryPoint/GET",
         "@type": "Operation",
         "http://www.w3.org/2000/01/rdf-schema#label": "The APIs main entry point.",
         "method": "GET",
         "returns": {
-          "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint"
+          "@id": "http://localhost:3000/api/hydra.json#EntryPoint"
         },
         "statusCodes": []
       },
       "supportedProperty": [
         {
           "property": {
-            "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint/api/tables",
+            "@id": "http://localhost:3000/api/hydra.json#EntryPoint/api/tables",
             "@type": "Link",
             "http://www.w3.org/2000/01/rdf-schema#label": "tables",
             "http://www.w3.org/2000/01/rdf-schema#comment": "The collection of all the queries that return data tables.",
-            "domain": "http://service.b-ol.de/api/hydra.json#EntryPoint",
+            "domain": "http://localhost:3000/api/hydra.json#EntryPoint",
             "range": "Collection",
             "supportedOperation": [
               {
-                "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint/api/tables/GET",
+                "@id": "http://localhost:3000/api/hydra.json#EntryPoint/api/tables/GET",
                 "@type": "Operation",
                 "method": "GET",
                 "http://www.w3.org/2000/01/rdf-schema#label": "Retrieves all table queries.",
@@ -42,15 +42,15 @@
         },
         {
           "property": {
-            "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint/api/graphs",
+            "@id": "http://localhost:3000/api/hydra.json#EntryPoint/api/graphs",
             "@type": "Link",
             "http://www.w3.org/2000/01/rdf-schema#label": "graphs",
             "http://www.w3.org/2000/01/rdf-schema#comment": "The collection of all the queries that return data graphs.",
-            "domain": "http://service.b-ol.de/api/hydra.json#EntryPoint",
+            "domain": "http://localhost:3000/api/hydra.json#EntryPoint",
             "range": "Collection",
             "supportedOperation": [
               {
-                "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint/api/graphs/GET",
+                "@id": "http://localhost:3000/api/hydra.json#EntryPoint/api/graphs/GET",
                 "@type": "Operation",
                 "method": "GET",
                 "http://www.w3.org/2000/01/rdf-schema#label": "Retrieves all graph queries.",
@@ -64,7 +64,7 @@
             "@id": "http://iiif.io/api/presentation/2#Manifest",
             "@type": "TemplatedLink",
             "http://www.w3.org/2000/01/rdf-schema#label": "IIIF Manifest",
-            "domain": "http://service.b-ol.de/api/hydra.json#EntryPoint",
+            "domain": "http://localhost:3000/api/hydra.json#EntryPoint",
             "range": "Resource",
             "supportedOperation": [
               {
@@ -81,21 +81,21 @@
       ]
     },
     {
-      "@id": "http://service.b-ol.de/api/hydra.json#SparqlQuery",
+      "@id": "http://localhost:3000/api/hydra.json#SparqlQuery",
       "@type": "Class",
       "subClassOf": "Resource",
       "http://www.w3.org/2000/01/rdf-schema#label": "SPARQL query",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A SPARQL query that was saved on the server and that can be triggered with a GET call.",
       "supportedOperation": [
         {
-          "@id": "http://service.b-ol.de/api/hydra.json#getQueryResults",
+          "@id": "http://localhost:3000/api/hydra.json#getQueryResults",
           "@type": "Operation",
           "method": "GET",
           "returns": "Resource",
           "http://www.w3.org/2000/01/rdf-schema#label": "Triggers the canned query and returns the query results."
         },
         {
-          "@id": "http://service.b-ol.de/api/hydra.json#createOrUpdateQuery",
+          "@id": "http://localhost:3000/api/hydra.json#createOrUpdateQuery",
           "@type": "Operation",
           "method": "PUT",
           "http://www.w3.org/2000/01/rdf-schema#label": "Receives a SPARQL query as text and creates or updates a query.",
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "@id": "http://service.b-ol.de/api/hydra.json#deleteQuery",
+          "@id": "http://localhost:3000/api/hydra.json#deleteQuery",
           "@type": "Operation",
           "method": "DELETE",
           "http://www.w3.org/2000/01/rdf-schema#label": "Deletes an existing query.",
@@ -127,11 +127,11 @@
     {
       "@id": "http://iiif.io/api/presentation/2#Manifest",
       "@type": "Class",
-      "template": "http://service.b-ol.de/api/graphs/manifest.nt?node={node}",
+      "template": "http://localhost:3000/api/graphs/manifest.nt?node={node}",
       "http://www.w3.org/2000/01/rdf-schema#comment": "A IIIF Manifest",
       "http://www.w3.org/2000/01/rdf-schema#label": "Manifest",
       "supportedOperation": {
-        "@id": "http://service.b-ol.de/api/hydra.json#EntryPoint/GET",
+        "@id": "http://localhost:3000/api/hydra.json#EntryPoint/GET",
         "@type": "Operation",
         "http://www.w3.org/2000/01/rdf-schema#label": "The APIs main entry point.",
         "method": "GET",
@@ -144,7 +144,7 @@
     {
       "@id": "http://www.w3.org/ns/hydra/core#IriTemplate",
       "@type": "Class",
-      "template": "http://service.b-ol.de/api/hydra.json#EntryPoint/graphs/{query}?node={node}",
+      "template": "http://localhost:3000/api/hydra.json#EntryPoint/graphs/{query}?node={node}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {

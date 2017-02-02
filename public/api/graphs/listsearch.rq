@@ -11,8 +11,8 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX doc: <http://iiif.io/api/text#>
 PREFIX oa: <http://www.w3.org/ns/oa#>
 PREFIX cnt: <http://www.w3.org/2011/content#>
-CONSTRUCT {<http://dor.local.org/annoservices/search/> rdf:type sc:AnnotationList .
-<http://dor.local.org/annoservices/search/> sc:hasAnnotations ?word .
+CONSTRUCT {<http://localhost:8080/annoservices/search/> rdf:type sc:AnnotationList .
+<http://localhost:8080/annoservices/search/> sc:hasAnnotations ?word .
 ?word rdf:type oa:Annotation .
 ?word oa:hasTarget ?newwordtarget .
 ?word oa:hasBody ?annoid .

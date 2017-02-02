@@ -19,7 +19,7 @@ var config = {
 };
 
 var ns = {
-    graphs: 'http://service.b-ol.de/api/hydra.json#EntryPoint/api/graphs'
+    graphs: 'http://localhost:3000/api/hydra.json#EntryPoint/api/graphs'
 };
 
 Promise.resolve()

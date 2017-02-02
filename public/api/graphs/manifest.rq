@@ -51,7 +51,7 @@ CONSTRUCT {?manifest rdf:type sc:Manifest .
 ?searchservice doap:implements <http://iiif.io/api/search/0/search>
 }
 
-WHERE {values ?manifest {<http://dor.local.org/fcrepo/rest/collection/?node/manifest>} .
+WHERE {values ?manifest {<http://localhost:8080/fcrepo/rest/collection/?node/manifest>} .
 values ?searchservice {<http://localhost:3000/api/graphs/listsearch.nt>} .
 ?manifest sc:hasSequences ?seqid .
 OPTIONAL {?manifest rdfs:label ?label } .
