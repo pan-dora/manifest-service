@@ -1,7 +1,6 @@
 {
   "@context": "http://localhost:3000/context.json",
   "@type": "sc:Manifest",
-  "@explicit": true,
   "sequences": [
     {
       "@type": "sc:Sequence",
