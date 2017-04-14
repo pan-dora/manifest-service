@@ -1,0 +1,280 @@
+{
+
+  "@graph": [
+    {
+      "@id": "http://mw.local.org/prop/reference/P2",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "http://mw.local.org/prop/reference/P3",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "_:N94869c64c206478792798483ecd281e7",
+      "@type": [
+        "http://wikiba.se/ontology#Statement"
+      ],
+      "http://mw.local.org/prop/statement/P2": {
+        "@id": "http://mw.local.org/entity/Q2"
+      },
+      "http://wikiba.se/ontology#rank": {
+        "@id": "http://wikiba.se/ontology#NormalRank"
+      }
+    },
+    {
+      "@id": "_:N5bca7b7caace43e5a752f136b5064b21",
+      "@type": "owl:Restriction",
+      "owl:onProperty": {
+        "@id": "http://mw.local.org/prop/direct/P3"
+      },
+      "owl:someValuesFrom": {
+        "@id": "owl:Thing"
+      }
+    },
+    {
+      "@id": "http://mw.local.org/prop/reference/value/P3",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "http://mw.local.org/prop/reference/value/P2",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "http://mw.local.org/prop/reference/value-normalized/P2",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "http://mw.local.org/prop/reference/value-normalized/P3",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "http://mw.local.org/entity/Q2",
+      "@type": "http://wikiba.se/ontology#Item",
+      "http://mw.local.org/prop/P2": [
+        {
+          "@id": "_:Ncd8be7781d974bc4831c5acc5529b163"
+        },
+        {
+          "@id": "_:N94869c64c206478792798483ecd281e7"
+        }
+      ],
+      "http://mw.local.org/prop/P3": {
+        "@id": "_:N204c1100f5cb482cb214c29e2eccbe93"
+      },
+      "http://mw.local.org/prop/direct/P2": [
+        {
+          "@id": "http://mw.local.org/entity/Q2"
+        },
+        {
+          "@id": "http://mw.local.org/entity/Q3"
+        }
+      ],
+      "http://mw.local.org/prop/direct/P3": "Zorg",
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "blabla"
+        },
+        {
+          "@language": "fr",
+          "@value": "blabla"
+        }
+      ],
+      "schema:name": [
+        {
+          "@language": "en",
+          "@value": "blabla"
+        },
+        {
+          "@language": "fr",
+          "@value": "blabla"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "blabla"
+        },
+        {
+          "@language": "fr",
+          "@value": "blabla"
+        }
+      ]
+    },
+    {
+      "@id": "http://mw.local.org/entity/Q3",
+      "@type": "http://wikiba.se/ontology#Item",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Item"
+      },
+      "schema:name": {
+        "@language": "en",
+        "@value": "Item"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Item"
+      }
+    },
+    {
+      "@id": "_:Ncd8be7781d974bc4831c5acc5529b163",
+      "@type": [
+        "http://wikiba.se/ontology#Statement"
+      ],
+      "http://mw.local.org/prop/statement/P2": {
+        "@id": "http://mw.local.org/entity/Q3"
+      },
+      "http://wikiba.se/ontology#rank": {
+        "@id": "http://wikiba.se/ontology#NormalRank"
+      },
+      "http://www.w3.org/ns/prov#wasDerivedFrom": {
+        "@id": "_:N0ba4f8fc5e274451842c3560fe756b7c"
+      }
+    },
+    {
+      "@id": "http://mw.local.org/w/Special:EntityData/Q2",
+      "@type": "schema:Dataset",
+      "cc:license": {
+        "@id": "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "http://wikiba.se/ontology#sitelinks": 0,
+      "http://wikiba.se/ontology#statements": 3,
+      "schema:about": {
+        "@id": "http://mw.local.org/entity/Q2"
+      },
+      "schema:dateModified": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-01-21T11:49:40+00:00"
+      },
+      "schema:softwareVersion": "0.0.5",
+      "schema:version": 23
+    },
+    {
+      "@id": "_:N0ba4f8fc5e274451842c3560fe756b7c",
+      "@type": "http://wikiba.se/ontology#Reference",
+      "http://mw.local.org/prop/reference/P3": "whatever"
+    },
+    {
+      "@id": "_:N204c1100f5cb482cb214c29e2eccbe93",
+      "@type": [
+        "http://wikiba.se/ontology#Statement"
+      ],
+      "http://mw.local.org/prop/statement/P3": "Zorg",
+      "http://wikiba.se/ontology#rank": {
+        "@id": "http://wikiba.se/ontology#NormalRank"
+      }
+    },
+    {
+      "@id": "http://mw.local.org/entity/P3",
+      "@type": "http://wikiba.se/ontology#Property",
+      "http://wikiba.se/ontology#claim": {
+        "@id": "http://mw.local.org/prop/P3"
+      },
+      "http://wikiba.se/ontology#directClaim": {
+        "@id": "http://mw.local.org/prop/direct/P3"
+      },
+      "http://wikiba.se/ontology#novalue": {
+        "@id": "http://mw.local.org/prop/novalue/P3"
+      },
+      "http://wikiba.se/ontology#propertyType": {
+        "@id": "http://wikiba.se/ontology#String"
+      },
+      "http://wikiba.se/ontology#qualifier": {
+        "@id": "http://mw.local.org/prop/qualifier/P3"
+      },
+      "http://wikiba.se/ontology#qualifierValue": {
+        "@id": "http://mw.local.org/prop/qualifier/value/P3"
+      },
+      "http://wikiba.se/ontology#qualifierValueNormalized": {
+        "@id": "http://mw.local.org/prop/qualifier/value-normalized/P3"
+      },
+      "http://wikiba.se/ontology#reference": {
+        "@id": "http://mw.local.org/prop/reference/P3"
+      },
+      "http://wikiba.se/ontology#referenceValue": {
+        "@id": "http://mw.local.org/prop/reference/value/P3"
+      },
+      "http://wikiba.se/ontology#referenceValueNormalized": {
+        "@id": "http://mw.local.org/prop/reference/value-normalized/P3"
+      },
+      "http://wikiba.se/ontology#statementProperty": {
+        "@id": "http://mw.local.org/prop/statement/P3"
+      },
+      "http://wikiba.se/ontology#statementValue": {
+        "@id": "http://mw.local.org/prop/statement/value/P3"
+      },
+      "http://wikiba.se/ontology#statementValueNormalized": {
+        "@id": "http://mw.local.org/prop/statement/value-normalized/P3"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "has taxon"
+      },
+      "schema:name": {
+        "@language": "en",
+        "@value": "has taxon"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "has taxon"
+      }
+    },
+    {
+      "@id": "http://mw.local.org/entity/P2",
+      "@type": "http://wikiba.se/ontology#Property",
+      "http://wikiba.se/ontology#claim": {
+        "@id": "http://mw.local.org/prop/P2"
+      },
+      "http://wikiba.se/ontology#directClaim": {
+        "@id": "http://mw.local.org/prop/direct/P2"
+      },
+      "http://wikiba.se/ontology#novalue": {
+        "@id": "http://mw.local.org/prop/novalue/P2"
+      },
+      "http://wikiba.se/ontology#propertyType": {
+        "@id": "http://wikiba.se/ontology#WikibaseItem"
+      },
+      "http://wikiba.se/ontology#qualifier": {
+        "@id": "http://mw.local.org/prop/qualifier/P2"
+      },
+      "http://wikiba.se/ontology#qualifierValue": {
+        "@id": "http://mw.local.org/prop/qualifier/value/P2"
+      },
+      "http://wikiba.se/ontology#qualifierValueNormalized": {
+        "@id": "http://mw.local.org/prop/qualifier/value-normalized/P2"
+      },
+      "http://wikiba.se/ontology#reference": {
+        "@id": "http://mw.local.org/prop/reference/P2"
+      },
+      "http://wikiba.se/ontology#referenceValue": {
+        "@id": "http://mw.local.org/prop/reference/value/P2"
+      },
+      "http://wikiba.se/ontology#referenceValueNormalized": {
+        "@id": "http://mw.local.org/prop/reference/value-normalized/P2"
+      },
+      "http://wikiba.se/ontology#statementProperty": {
+        "@id": "http://mw.local.org/prop/statement/P2"
+      },
+      "http://wikiba.se/ontology#statementValue": {
+        "@id": "http://mw.local.org/prop/statement/value/P2"
+      },
+      "http://wikiba.se/ontology#statementValueNormalized": {
+        "@id": "http://mw.local.org/prop/statement/value-normalized/P2"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "type"
+      },
+      "schema:name": {
+        "@language": "en",
+        "@value": "type"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "type"
+      }
+    }
+  ]
+}
+
